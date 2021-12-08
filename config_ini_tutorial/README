@@ -1,0 +1,36 @@
+20211207 
+Sarah Fong
+sarah.l.fong@vanderbilt.edu | sarah.fong@ucsf.edu
+
+This is a tutorial to demonstrate how to generate a config.ini file.
+
+Config files are important for: 
+    (1) Creating reproducible data analyses
+        by recording all paths, scripts, source code, 
+        and files used to run a pipeline.
+    
+    (2) Modifying pipeline inputs in an organized fashion
+    
+    (3) Modifying data analyses when reviewers want to see 
+        data processed in a different way. 
+    
+
+In the tutorial, we will:
+(1) learn to write/read a config file 
+(2) use portions of the config file as inputs for: 
+    (2a) a driver script (aka a PIPELINE) to  LD-expand significant GWAS variants
+    (2b) an auxiliary script that filters for significant GWAS hits
+    (2c) an auxiliary script that LD expands significant GWAS hits
+
+
+Please refer to the following TUTORIAL scripts in the ./bin directory
+
+TUTORIAL - READING/WRITING A CONFIG FILE
+    ./bin/TUTORIAL_config_ini.ipynb
+    
+TUTORIAL - USING CONFIG AS INPUTS FOR DRIVER SCRIPT
+    ./bin/PIPELINE_LD_expand_GWAS.ipynb
+    
+TUTORIAL - USING CONFIG AS INPUTS FOR AUXILIARY SCRIPTS 
+    ./bin/clean_gwas.ipynb
+    ./bin/LD_expand_GWAS.ipynb
