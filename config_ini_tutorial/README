@@ -2,7 +2,7 @@
 Sarah Fong
 sarah.l.fong@vanderbilt.edu | sarah.fong@ucsf.edu
 
-This is a tutorial to demonstrate how to generate a config.ini file.
+This is a tutorial to generate a config.ini file.
 
 Config files are important for: 
     (1) Creating reproducible data analyses
