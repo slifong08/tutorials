@@ -2,7 +2,7 @@
 Sarah Fong
 sarah.l.fong@vanderbilt.edu | sarah.fong@ucsf.edu
 
-This is a tutorial to demonstrate how to generate a config.ini file.
+This is a tutorial to generate a config.ini file.
 
 Config files are important for: 
     (1) Creating reproducible data analyses
@@ -27,10 +27,13 @@ Please refer to the following TUTORIAL scripts in the ./bin directory
 
 TUTORIAL - READING/WRITING A CONFIG FILE
     ./bin/TUTORIAL_config_ini.ipynb
+    ./bin/GENERATE_config_ini.ipynb  # example script to generate config_gwas.ini
     
 TUTORIAL - USING CONFIG AS INPUTS FOR DRIVER SCRIPT
-    ./bin/PIPELINE_LD_expand_GWAS.ipynb
+    ./bin/PIPELINE_LD_expand_GWAS.ipynb  # example pipeline using config_gwas.ini 
     
 TUTORIAL - USING CONFIG AS INPUTS FOR AUXILIARY SCRIPTS 
-    ./bin/clean_gwas.ipynb
-    ./bin/LD_expand_GWAS.ipynb
+    ./bin/clean_gwas.ipynb  # example aux script using config_gwas.ini 
+    ./bin/LD_expand_GWAS.ipynb. # example aux script using config_gwas.ini 
+    
+
